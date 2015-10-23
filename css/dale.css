@@ -1,0 +1,85 @@
+@charset "utf-8";
+/* CSS Document */
+
+body {
+	font-family: Segoe, "Segoe UI", "DejaVu Sans", "Trebuchet MS", "brandon-grotesque", Verdana,sans-serif;
+	font-style: normal;
+	font-weight: 400;
+	margin: 0;
+	overflow: hidden;
+}
+
+
+a {
+	text-decoration: none;
+}
+
+.absolute-center {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+    transform: translate(-50%, -50%);
+}
+
+.absolute-center img{
+	width: 500px;
+}
+
+
+#home {
+	background: url(../images/bkg.jpg);
+	background-size: cover;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100vh;
+}
+
+#home h1 {
+	font-style: normal;
+	font-size: 35px;
+	font-weight: 300;
+	color: #f6f8f9;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: -20px;
+}
+
+#home h1 span {
+	padding: 0px 30px;
+	background: #353535;
+}
+
+#home h2 {
+	font-style: normal;
+	font-size: 20px;
+	font-weight: 300;
+	color: #f6f8f9;
+	text-align: center;
+	text-transform: uppercase;
+}
+
+#home h2 span {
+	padding: 0px 13px;
+	background: #BC464E;
+}
+
+
+#about{
+	background: #353535;
+	padding-top: 20px;
+	width: 100%;
+	height: 100%;
+}
+
+#about h1 {
+	font-style: normal;
+	font-size: 35px;
+	font-weight: 300;
+	color: #f6f8f9;
+	text-align: center;
+	text-transform: uppercase;
+	margin-bottom: -10px;
+}
